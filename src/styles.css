@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.carouselArea {
+  height: 300px;
+  width: 600px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.carouselArea::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  height: 100px;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: gray;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
